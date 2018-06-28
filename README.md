@@ -1,4 +1,4 @@
-# dot
+# DOT
 A joke programming language that all characters are dots.
 
 When reading a dot, it will run one of the following commands randomly:
@@ -10,7 +10,14 @@ When reading a dot, it will run one of the following commands randomly:
 * accept one byte of input, storing its value in the byte at the data pointer
 * if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to anywhere before the current instruction pointer
 
+## For examples
+
 ##### Hello World! (maybe)
 ```dot
 .......................
+```
+
+##### Add two numbers (maybe)
+```dot
+......................
 ```
